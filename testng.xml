@@ -1,0 +1,27 @@
+<suite name="Selenium Grid with webdriver" verbose="4"  parallel="tests" thread-count="3" >   
+  
+<!--  needed multiple in case of sequential execution --> 
+<!--   <parameter name="browser" value="firefox"></parameter> -->
+  
+  
+ <test name="Google search">
+    <classes>
+	  <class name="TestSample"/>
+    </classes >
+ </test>
+ 
+  <!--  needed multiple in case of sequential execution --> 
+<!--  <parameter name="browser" value="ie"></parameter> -->  
+<!--  <test name="Google search"> -->   
+<!--     <classes> -->
+<!-- 	  <class name="TestSample"/> -->
+<!--     </classes > -->
+<!--  </test> -->
+<!--  <parameter name="browser" value="chrome"></parameter> -->
+<!--  <test name="Google search"> -->
+<!--     <classes> -->
+<!-- 	  <class name="TestSample"/> -->
+<!--     </classes > -->
+<!--  </test> -->
+ 
+ </suite>

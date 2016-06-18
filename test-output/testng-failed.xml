@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="4" name="Failed suite [Selenium Grid with webdriver]">
+  <test name="Google search(failed)">
+    <classes>
+      <class name="TestSample">
+        <methods>
+          <include name="TestLogin"/>
+        </methods>
+      </class> <!-- TestSample -->
+    </classes>
+  </test> <!-- Google search(failed) -->
+</suite> <!-- Failed suite [Selenium Grid with webdriver] -->
